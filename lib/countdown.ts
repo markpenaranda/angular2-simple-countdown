@@ -3,7 +3,7 @@ import Timer = NodeJS.Timer;
 
 @Component({
   selector: 'count-down',
-  template: `<h1>{{displayString}}</h1><ng-content></ng-content>`
+  template: `<span>{{displayString}}</span><ng-content></ng-content>`
 })
 export class CountDown implements OnInit {
 
